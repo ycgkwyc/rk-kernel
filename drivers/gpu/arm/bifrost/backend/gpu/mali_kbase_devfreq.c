@@ -205,9 +205,9 @@ int kbase_devfreq_opp_helper(struct dev_pm_set_opp_data *data)
 		}
 		ret = regulator_set_voltage(mem_reg, new_supply_mem->u_volt,
 					    INT_MAX);
-+               if (ret < 0) {
-+                   dev_err(dev, "failed to set volt %lu uV for mem reg, ret:%d\n",
-+                       new_supply_mem->u_volt, ret);
+                if (ret < 0) {
+                    dev_err(dev, "failed to set volt %lu uV for mem reg, ret:%d\n",
+                        new_supply_mem->u_volt, ret);
 			goto restore_freq;
 		}
 	}
