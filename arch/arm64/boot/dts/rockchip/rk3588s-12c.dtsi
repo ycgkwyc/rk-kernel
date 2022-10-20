@@ -558,25 +558,44 @@ status = "okay";
 };
 
 &vp0 {
-  /delete-property/ rockchip,plane-mask;
-  /delete-property/ rockchip,primary-plane;
+  cursor-win-id=<ROCKCHIP_VOP2_ESMART0>;
+  rockchip,plane-mask = <(1 << ROCKCHIP_VOP2_CLUSTER0 | 1 << ROCKCHIP_VOP2_ESMART0)>;
+  rockchip,primary-plane = <ROCKCHIP_VOP2_CLUSTER0>;
 };
 
 &vp1 {
   cursor-win-id=<ROCKCHIP_VOP2_ESMART1>;
-  rockchip,plane-mask = <( 1 << ROCKCHIP_VOP2_CLUSTER0 | 1 << ROCKCHIP_VOP2_ESMART0 |
-        1 << ROCKCHIP_VOP2_CLUSTER1 | 1 << ROCKCHIP_VOP2_ESMART1)>;
+  rockchip,plane-mask = <(1 << ROCKCHIP_VOP2_CLUSTER1 | 1 << ROCKCHIP_VOP2_ESMART1)>;
   rockchip,primary-plane = <ROCKCHIP_VOP2_CLUSTER1>;
 };
 
 &vp2 {
   cursor-win-id=<ROCKCHIP_VOP2_ESMART2>;
-  rockchip,plane-mask = <( 1 << ROCKCHIP_VOP2_CLUSTER2 | 1 << ROCKCHIP_VOP2_ESMART2 |
-        1 << ROCKCHIP_VOP2_CLUSTER3 | 1 << ROCKCHIP_VOP2_ESMART3)>;
+  rockchip,plane-mask = <(1 << ROCKCHIP_VOP2_CLUSTER2 | 1 << ROCKCHIP_VOP2_ESMART2)>;
   rockchip,primary-plane = <ROCKCHIP_VOP2_CLUSTER2>;
 };
 
 &vp3 {
-  /delete-property/ rockchip,plane-mask;
-  /delete-property/ rockchip,primary-plane;
+  cursor-win-id=<ROCKCHIP_VOP2_ESMART3>;
+  rockchip,plane-mask = <(1 << ROCKCHIP_VOP2_CLUSTER3 | 1 << ROCKCHIP_VOP2_ESMART3)>;
+  rockchip,primary-plane = <ROCKCHIP_VOP2_CLUSTER3>;
 };
+
+&sdmmc_bus4 {
+	rockchip,pins =
+        <4 RK_PD0 1 &pcfg_pull_up_drv_level_12>,
+        <4 RK_PD1 1 &pcfg_pull_up_drv_level_12>,
+        <4 RK_PD2 1 &pcfg_pull_up_drv_level_12>,
+        <4 RK_PD3 1 &pcfg_pull_up_drv_level_12>;
+ };
+
+&sdmmc_clk {
+   rockchip,pins =
+        <4 RK_PD5 1 &pcfg_pull_up_drv_level_12>;
+};
+
+&sdmmc_cmd {
+  rockchip,pins =
+        <4 RK_PD4 1 &pcfg_pull_up_drv_level_12>;
+};
+
