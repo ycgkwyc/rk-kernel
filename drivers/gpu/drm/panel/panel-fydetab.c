@@ -1070,7 +1070,7 @@ static const struct drm_display_mode auo_b101aw03_mode = {
 .vsync_end = 600 + 16 + 6,
 .vtotal = 600 + 16 + 6 + 16,
 };
-+
+
 static const struct panel_desc auo_b101aw03 = {
 .modes = &auo_b101aw03_mode,
 .num_modes = 1,
