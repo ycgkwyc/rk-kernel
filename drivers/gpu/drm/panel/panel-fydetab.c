@@ -1692,7 +1692,7 @@ static const struct panel_desc boe_nv140fhmn49 = {
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 .connector_type = DRM_MODE_CONNECTOR_eDP,
 };
-+
+
 static const struct drm_display_mode cdtech_s043wq26h_ct7_mode = {
 .clock = 9000,
 .hdisplay = 480,
@@ -1705,7 +1705,7 @@ static const struct drm_display_mode cdtech_s043wq26h_ct7_mode = {
 .vtotal = 272 + 8 + 8 + 8,
 .flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 };
-+
+
 static const struct panel_desc cdtech_s043wq26h_ct7 = {
 .modes = &cdtech_s043wq26h_ct7_mode,
 .num_modes = 1,
@@ -1716,7 +1716,7 @@ static const struct panel_desc cdtech_s043wq26h_ct7 = {
 },
 .bus_flags = DRM_BUS_FLAG_PIXDATA_DRIVE_POSEDGE,
 };
-+
+
 /* S070PWS19HP-FC21 2017/04/22 */
 static const struct drm_display_mode cdtech_s070pws19hp_fc21_mode = {
 .clock = 51200,
@@ -1730,7 +1730,7 @@ static const struct drm_display_mode cdtech_s070pws19hp_fc21_mode = {
 .vtotal = 600 + 12 + 3 + 20,
 .flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 };
-+
+
 static const struct panel_desc cdtech_s070pws19hp_fc21 = {
 .modes = &cdtech_s070pws19hp_fc21_mode,
 .num_modes = 1,
@@ -1743,7 +1743,7 @@ static const struct panel_desc cdtech_s070pws19hp_fc21 = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_SAMPLE_NEGEDGE,
 .connector_type = DRM_MODE_CONNECTOR_DPI,
 };
-+
+
 /* S070SWV29HG-DC44 2017/09/21 */
 static const struct drm_display_mode cdtech_s070swv29hg_dc44_mode = {
 .clock = 33300,
@@ -1757,7 +1757,7 @@ static const struct drm_display_mode cdtech_s070swv29hg_dc44_mode = {
 .vtotal = 480 + 22 + 2 + 21,
 .flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 };
-+
+
 static const struct panel_desc cdtech_s070swv29hg_dc44 = {
 .modes = &cdtech_s070swv29hg_dc44_mode,
 .num_modes = 1,
@@ -1770,7 +1770,7 @@ static const struct panel_desc cdtech_s070swv29hg_dc44 = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_SAMPLE_NEGEDGE,
 .connector_type = DRM_MODE_CONNECTOR_DPI,
 };
-+
+
 static const struct drm_display_mode cdtech_s070wv95_ct16_mode = {
 .clock = 35000,
 .hdisplay = 800,
@@ -1783,7 +1783,7 @@ static const struct drm_display_mode cdtech_s070wv95_ct16_mode = {
 .vtotal = 480 + 29 + 13 + 3,
 .flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 };
-+
+
 static const struct panel_desc cdtech_s070wv95_ct16 = {
 .modes = &cdtech_s070wv95_ct16_mode,
 .num_modes = 1,
@@ -1793,7 +1793,7 @@ static const struct panel_desc cdtech_s070wv95_ct16 = {
 	.height = 85,
 },
 };
-+
+
 static const struct display_timing chefree_ch101olhlwh_002_timing = {
 .pixelclock = { 68900000, 71100000, 73400000 },
 .hactive = { 1280, 1280, 1280 },
@@ -1806,7 +1806,7 @@ static const struct display_timing chefree_ch101olhlwh_002_timing = {
 .vsync_len = { 1, 1, 1 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc chefree_ch101olhlwh_002 = {
 .timings = &chefree_ch101olhlwh_002_timing,
 .num_timings = 1,
@@ -1823,7 +1823,7 @@ static const struct panel_desc chefree_ch101olhlwh_002 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode chunghwa_claa070wp03xg_mode = {
 .clock = 66770,
 .hdisplay = 800,
@@ -1836,7 +1836,7 @@ static const struct drm_display_mode chunghwa_claa070wp03xg_mode = {
 .vtotal = 1280 + 1 + 7 + 15,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc chunghwa_claa070wp03xg = {
 .modes = &chunghwa_claa070wp03xg_mode,
 .num_modes = 1,
@@ -1849,7 +1849,7 @@ static const struct panel_desc chunghwa_claa070wp03xg = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode chunghwa_claa101wa01a_mode = {
 .clock = 72070,
 .hdisplay = 1366,
@@ -1861,7 +1861,7 @@ static const struct drm_display_mode chunghwa_claa101wa01a_mode = {
 .vsync_end = 768 + 4 + 4,
 .vtotal = 768 + 4 + 4 + 4,
 };
-+
+
 static const struct panel_desc chunghwa_claa101wa01a = {
 .modes = &chunghwa_claa101wa01a_mode,
 .num_modes = 1,
@@ -1874,7 +1874,7 @@ static const struct panel_desc chunghwa_claa101wa01a = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode chunghwa_claa101wb01_mode = {
 .clock = 69300,
 .hdisplay = 1366,
@@ -1886,7 +1886,7 @@ static const struct drm_display_mode chunghwa_claa101wb01_mode = {
 .vsync_end = 768 + 16 + 8,
 .vtotal = 768 + 16 + 8 + 16,
 };
-+
+
 static const struct panel_desc chunghwa_claa101wb01 = {
 .modes = &chunghwa_claa101wb01_mode,
 .num_modes = 1,
@@ -1899,7 +1899,7 @@ static const struct panel_desc chunghwa_claa101wb01 = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode dataimage_scf0700c48ggu18_mode = {
 .clock = 33260,
 .hdisplay = 800,
@@ -1912,7 +1912,7 @@ static const struct drm_display_mode dataimage_scf0700c48ggu18_mode = {
 .vtotal = 480 + 10 + 2 + 33,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc dataimage_scf0700c48ggu18 = {
 .modes = &dataimage_scf0700c48ggu18_mode,
 .num_modes = 1,
@@ -1924,7 +1924,7 @@ static const struct panel_desc dataimage_scf0700c48ggu18 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_DRIVE_POSEDGE,
 };
-+
+
 static const struct display_timing dlc_dlc0700yzg_1_timing = {
 .pixelclock = { 45000000, 51200000, 57000000 },
 .hactive = { 1024, 1024, 1024 },
@@ -1937,7 +1937,7 @@ static const struct display_timing dlc_dlc0700yzg_1_timing = {
 .vsync_len = { 9, 13, 15 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc dlc_dlc0700yzg_1 = {
 .timings = &dlc_dlc0700yzg_1_timing,
 .num_timings = 1,
@@ -1954,7 +1954,7 @@ static const struct panel_desc dlc_dlc0700yzg_1 = {
 .bus_format = MEDIA_BUS_FMT_RGB666_1X7X3_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct display_timing dlc_dlc1010gig_timing = {
 .pixelclock = { 68900000, 71100000, 73400000 },
 .hactive = { 1280, 1280, 1280 },
@@ -1967,7 +1967,7 @@ static const struct display_timing dlc_dlc1010gig_timing = {
 .vsync_len = { 5, 7, 11 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc dlc_dlc1010gig = {
 .timings = &dlc_dlc1010gig_timing,
 .num_timings = 1,
@@ -1985,7 +1985,7 @@ static const struct panel_desc dlc_dlc1010gig = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode edt_et035012dm6_mode = {
 .clock = 6500,
 .hdisplay = 320,
@@ -1998,7 +1998,7 @@ static const struct drm_display_mode edt_et035012dm6_mode = {
 .vtotal = 240 + 4 + 4 + 14,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc edt_et035012dm6 = {
 .modes = &edt_et035012dm6_mode,
 .num_modes = 1,
@@ -2010,25 +2010,25 @@ static const struct panel_desc edt_et035012dm6 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 .bus_flags = DRM_BUS_FLAG_DE_LOW | DRM_BUS_FLAG_PIXDATA_SAMPLE_POSEDGE,
 };
-+
+
 static const struct drm_display_mode edt_etm043080dh6gp_mode = {
 .clock = 10870,
 .hdisplay = 480,
 .hsync_start = 480 + 8,
 .hsync_end = 480 + 8 + 4,
 .htotal = 480 + 8 + 4 + 41,
-+
+
 /*
  * IWG22M: Y resolution changed for "dc_linuxfb" module crashing while
  * fb_align
  */
-+
+
 .vdisplay = 288,
 .vsync_start = 288 + 2,
 .vsync_end = 288 + 2 + 4,
 .vtotal = 288 + 2 + 4 + 10,
 };
-+
+
 static const struct panel_desc edt_etm043080dh6gp = {
 .modes = &edt_etm043080dh6gp_mode,
 .num_modes = 1,
@@ -2040,7 +2040,7 @@ static const struct panel_desc edt_etm043080dh6gp = {
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 .connector_type = DRM_MODE_CONNECTOR_DPI,
 };
-+
+
 static const struct drm_display_mode edt_etm0430g0dh6_mode = {
 .clock = 9000,
 .hdisplay = 480,
@@ -2053,7 +2053,7 @@ static const struct drm_display_mode edt_etm0430g0dh6_mode = {
 .vtotal = 272 + 2 + 10 + 2,
 .flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 };
-+
+
 static const struct panel_desc edt_etm0430g0dh6 = {
 .modes = &edt_etm0430g0dh6_mode,
 .num_modes = 1,
@@ -2063,7 +2063,7 @@ static const struct panel_desc edt_etm0430g0dh6 = {
 	.height = 54,
 },
 };
-+
+
 static const struct drm_display_mode edt_et057090dhu_mode = {
 .clock = 25175,
 .hdisplay = 640,
@@ -2076,7 +2076,7 @@ static const struct drm_display_mode edt_et057090dhu_mode = {
 .vtotal = 480 + 10 + 3 + 32,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc edt_et057090dhu = {
 .modes = &edt_et057090dhu_mode,
 .num_modes = 1,
@@ -2089,7 +2089,7 @@ static const struct panel_desc edt_et057090dhu = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_DRIVE_NEGEDGE,
 .connector_type = DRM_MODE_CONNECTOR_DPI,
 };
-+
+
 static const struct drm_display_mode edt_etm0700g0dh6_mode = {
 .clock = 33260,
 .hdisplay = 800,
@@ -2102,7 +2102,7 @@ static const struct drm_display_mode edt_etm0700g0dh6_mode = {
 .vtotal = 480 + 10 + 2 + 33,
 .flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 };
-+
+
 static const struct panel_desc edt_etm0700g0dh6 = {
 .modes = &edt_etm0700g0dh6_mode,
 .num_modes = 1,
@@ -2114,7 +2114,7 @@ static const struct panel_desc edt_etm0700g0dh6 = {
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_DRIVE_NEGEDGE,
 };
-+
+
 static const struct panel_desc edt_etm0700g0bdh6 = {
 .modes = &edt_etm0700g0dh6_mode,
 .num_modes = 1,
@@ -2126,7 +2126,7 @@ static const struct panel_desc edt_etm0700g0bdh6 = {
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_DRIVE_POSEDGE,
 };
-+
+
 static const struct display_timing evervision_vgg804821_timing = {
 .pixelclock = { 27600000, 33300000, 50000000 },
 .hactive = { 800, 800, 800 },
@@ -2141,7 +2141,7 @@ static const struct display_timing evervision_vgg804821_timing = {
 	 DISPLAY_FLAGS_DE_HIGH | DISPLAY_FLAGS_PIXDATA_NEGEDGE |
 	 DISPLAY_FLAGS_SYNC_NEGEDGE,
 };
-+
+
 static const struct panel_desc evervision_vgg804821 = {
 .timings = &evervision_vgg804821_timing,
 .num_timings = 1,
@@ -2153,7 +2153,7 @@ static const struct panel_desc evervision_vgg804821 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_SAMPLE_POSEDGE,
 };
-+
+
 static const struct drm_display_mode foxlink_fl500wvr00_a0t_mode = {
 .clock = 32260,
 .hdisplay = 800,
@@ -2165,7 +2165,7 @@ static const struct drm_display_mode foxlink_fl500wvr00_a0t_mode = {
 .vsync_end = 480 + 37 + 2,
 .vtotal = 480 + 37 + 2 + 8,
 };
-+
+
 static const struct panel_desc foxlink_fl500wvr00_a0t = {
 .modes = &foxlink_fl500wvr00_a0t_mode,
 .num_modes = 1,
@@ -2176,7 +2176,7 @@ static const struct panel_desc foxlink_fl500wvr00_a0t = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 };
-+
+
 static const struct drm_display_mode frida_frd350h54004_modes[] = {
 { /* 60 Hz */
 	.clock = 6000,
@@ -2203,7 +2203,7 @@ static const struct drm_display_mode frida_frd350h54004_modes[] = {
 	.flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 },
 };
-+
+
 static const struct panel_desc frida_frd350h54004 = {
 .modes = frida_frd350h54004_modes,
 .num_modes = ARRAY_SIZE(frida_frd350h54004_modes),
@@ -2216,7 +2216,7 @@ static const struct panel_desc frida_frd350h54004 = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_SAMPLE_NEGEDGE,
 .connector_type = DRM_MODE_CONNECTOR_DPI,
 };
-+
+
 static const struct drm_display_mode friendlyarm_hd702e_mode = {
 .clock		= 67185,
 .hdisplay	= 800,
@@ -2229,7 +2229,7 @@ static const struct drm_display_mode friendlyarm_hd702e_mode = {
 .vtotal		= 1280 + 4 + 8 + 4,
 .flags		= DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc friendlyarm_hd702e = {
 .modes = &friendlyarm_hd702e_mode,
 .num_modes = 1,
@@ -2238,7 +2238,7 @@ static const struct panel_desc friendlyarm_hd702e = {
 	.height	= 151,
 },
 };
-+
+
 static const struct drm_display_mode giantplus_gpg482739qs5_mode = {
 .clock = 9000,
 .hdisplay = 480,
@@ -2250,7 +2250,7 @@ static const struct drm_display_mode giantplus_gpg482739qs5_mode = {
 .vsync_end = 272 + 8 + 1,
 .vtotal = 272 + 8 + 1 + 8,
 };
-+
+
 static const struct panel_desc giantplus_gpg482739qs5 = {
 .modes = &giantplus_gpg482739qs5_mode,
 .num_modes = 1,
@@ -2261,7 +2261,7 @@ static const struct panel_desc giantplus_gpg482739qs5 = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 };
-+
+
 static const struct display_timing giantplus_gpm940b0_timing = {
 .pixelclock = { 13500000, 27000000, 27500000 },
 .hactive = { 320, 320, 320 },
@@ -2274,7 +2274,7 @@ static const struct display_timing giantplus_gpm940b0_timing = {
 .vsync_len = { 1, 1, 6 },
 .flags = DISPLAY_FLAGS_HSYNC_LOW | DISPLAY_FLAGS_VSYNC_LOW,
 };
-+
+
 static const struct panel_desc giantplus_gpm940b0 = {
 .timings = &giantplus_gpm940b0_timing,
 .num_timings = 1,
@@ -2286,7 +2286,7 @@ static const struct panel_desc giantplus_gpm940b0 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_3X8,
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_SAMPLE_POSEDGE,
 };
-+
+
 static const struct display_timing hannstar_hsd070pww1_timing = {
 .pixelclock = { 64300000, 71100000, 82000000 },
 .hactive = { 1280, 1280, 1280 },
@@ -2304,7 +2304,7 @@ static const struct display_timing hannstar_hsd070pww1_timing = {
 .vsync_len = { 1, 21, 203 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc hannstar_hsd070pww1 = {
 .timings = &hannstar_hsd070pww1_timing,
 .num_timings = 1,
@@ -2316,7 +2316,7 @@ static const struct panel_desc hannstar_hsd070pww1 = {
 .bus_format = MEDIA_BUS_FMT_RGB666_1X7X3_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct display_timing hannstar_hsd100pxn1_timing = {
 .pixelclock = { 55000000, 65000000, 75000000 },
 .hactive = { 1024, 1024, 1024 },
@@ -2329,7 +2329,7 @@ static const struct display_timing hannstar_hsd100pxn1_timing = {
 .vsync_len = { 10, 10, 10 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc hannstar_hsd100pxn1 = {
 .timings = &hannstar_hsd100pxn1_timing,
 .num_timings = 1,
@@ -2341,7 +2341,7 @@ static const struct panel_desc hannstar_hsd100pxn1 = {
 .bus_format = MEDIA_BUS_FMT_RGB666_1X7X3_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode hitachi_tx23d38vm0caa_mode = {
 .clock = 33333,
 .hdisplay = 800,
@@ -2353,7 +2353,7 @@ static const struct drm_display_mode hitachi_tx23d38vm0caa_mode = {
 .vsync_end = 480 + 16 + 13,
 .vtotal = 480 + 16 + 13 + 16,
 };
-+
+
 static const struct panel_desc hitachi_tx23d38vm0caa = {
 .modes = &hitachi_tx23d38vm0caa_mode,
 .num_modes = 1,
@@ -2367,7 +2367,7 @@ static const struct panel_desc hitachi_tx23d38vm0caa = {
 	.disable = 160,
 },
 };
-+
+
 static const struct drm_display_mode innolux_at043tn24_mode = {
 .clock = 9000,
 .hdisplay = 480,
@@ -2380,7 +2380,7 @@ static const struct drm_display_mode innolux_at043tn24_mode = {
 .vtotal = 272 + 2 + 10 + 2,
 .flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 };
-+
+
 static const struct panel_desc innolux_at043tn24 = {
 .modes = &innolux_at043tn24_mode,
 .num_modes = 1,
@@ -2392,7 +2392,7 @@ static const struct panel_desc innolux_at043tn24 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_DRIVE_POSEDGE,
 };
-+
+
 static const struct drm_display_mode innolux_at070tn92_mode = {
 .clock = 33333,
 .hdisplay = 800,
@@ -2404,7 +2404,7 @@ static const struct drm_display_mode innolux_at070tn92_mode = {
 .vsync_end = 480 + 22 + 10,
 .vtotal = 480 + 22 + 23 + 10,
 };
-+
+
 static const struct panel_desc innolux_at070tn92 = {
 .modes = &innolux_at070tn92_mode,
 .num_modes = 1,
@@ -2414,7 +2414,7 @@ static const struct panel_desc innolux_at070tn92 = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 };
-+
+
 static const struct display_timing innolux_g070y2_l01_timing = {
 .pixelclock = { 28000000, 29500000, 32000000 },
 .hactive = { 800, 800, 800 },
@@ -2427,7 +2427,7 @@ static const struct display_timing innolux_g070y2_l01_timing = {
 .vsync_len = { 2, 2, 2 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc innolux_g070y2_l01 = {
 .timings = &innolux_g070y2_l01_timing,
 .num_timings = 1,
@@ -2445,7 +2445,7 @@ static const struct panel_desc innolux_g070y2_l01 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct display_timing innolux_g101ice_l01_timing = {
 .pixelclock = { 60400000, 71100000, 74700000 },
 .hactive = { 1280, 1280, 1280 },
@@ -2458,7 +2458,7 @@ static const struct display_timing innolux_g101ice_l01_timing = {
 .vsync_len = { 1, 1, 1 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc innolux_g101ice_l01 = {
 .timings = &innolux_g101ice_l01_timing,
 .num_timings = 1,
@@ -2474,7 +2474,7 @@ static const struct panel_desc innolux_g101ice_l01 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct display_timing innolux_g121i1_l01_timing = {
 .pixelclock = { 67450000, 71000000, 74550000 },
 .hactive = { 1280, 1280, 1280 },
@@ -2486,7 +2486,7 @@ static const struct display_timing innolux_g121i1_l01_timing = {
 .vback_porch = { 4, 11, 99 },
 .vsync_len = { 1, 1, 1 },
 };
-+
+
 static const struct panel_desc innolux_g121i1_l01 = {
 .timings = &innolux_g121i1_l01_timing,
 .num_timings = 1,
@@ -2502,7 +2502,7 @@ static const struct panel_desc innolux_g121i1_l01 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode innolux_g121x1_l03_mode = {
 .clock = 65000,
 .hdisplay = 1024,
@@ -2515,7 +2515,7 @@ static const struct drm_display_mode innolux_g121x1_l03_mode = {
 .vtotal = 768 + 38 + 1 + 0,
 .flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 };
-+
+
 static const struct panel_desc innolux_g121x1_l03 = {
 .modes = &innolux_g121x1_l03_mode,
 .num_modes = 1,
@@ -2530,7 +2530,7 @@ static const struct panel_desc innolux_g121x1_l03 = {
 	.disable = 400,
 },
 };
-+
+
 /*
  * Datasheet specifies that at 60 Hz refresh rate:
  * - total horizontal time: { 1506, 1592, 1716 }
@@ -2553,7 +2553,7 @@ static const struct display_timing innolux_n116bge_timing = {
 .vsync_len = { 12, 12, 12 },
 .flags = DISPLAY_FLAGS_VSYNC_LOW | DISPLAY_FLAGS_HSYNC_LOW,
 };
-+
+
 static const struct panel_desc innolux_n116bge = {
 .timings = &innolux_n116bge_timing,
 .num_timings = 1,
@@ -2563,7 +2563,7 @@ static const struct panel_desc innolux_n116bge = {
 	.height = 144,
 },
 };
-+
+
 static const struct drm_display_mode innolux_n156bge_l21_mode = {
 .clock = 69300,
 .hdisplay = 1366,
@@ -2575,7 +2575,7 @@ static const struct drm_display_mode innolux_n156bge_l21_mode = {
 .vsync_end = 768 + 2 + 6,
 .vtotal = 768 + 2 + 6 + 12,
 };
-+
+
 static const struct panel_desc innolux_n156bge_l21 = {
 .modes = &innolux_n156bge_l21_mode,
 .num_modes = 1,
@@ -2588,7 +2588,7 @@ static const struct panel_desc innolux_n156bge_l21 = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode innolux_p120zdg_bf1_mode = {
 .clock = 206016,
 .hdisplay = 2160,
@@ -2601,7 +2601,7 @@ static const struct drm_display_mode innolux_p120zdg_bf1_mode = {
 .vtotal = 1440 + 3 + 10 + 27,
 .flags = DRM_MODE_FLAG_PHSYNC | DRM_MODE_FLAG_PVSYNC,
 };
-+
+
 static const struct panel_desc innolux_p120zdg_bf1 = {
 .modes = &innolux_p120zdg_bf1_mode,
 .num_modes = 1,
@@ -2615,7 +2615,7 @@ static const struct panel_desc innolux_p120zdg_bf1 = {
 	.unprepare = 500,
 },
 };
-+
+
 static const struct drm_display_mode innolux_zj070na_01p_mode = {
 .clock = 51501,
 .hdisplay = 1024,
@@ -2627,7 +2627,7 @@ static const struct drm_display_mode innolux_zj070na_01p_mode = {
 .vsync_end = 600 + 16 + 4,
 .vtotal = 600 + 16 + 4 + 16,
 };
-+
+
 static const struct panel_desc innolux_zj070na_01p = {
 .modes = &innolux_zj070na_01p_mode,
 .num_modes = 1,
@@ -2637,7 +2637,7 @@ static const struct panel_desc innolux_zj070na_01p = {
 	.height = 90,
 },
 };
-+
+
 static const struct drm_display_mode ivo_m133nwf4_r0_mode = {
 .clock = 138778,
 .hdisplay = 1920,
@@ -2650,7 +2650,7 @@ static const struct drm_display_mode ivo_m133nwf4_r0_mode = {
 .vtotal = 1080 + 3 + 12 + 17,
 .flags = DRM_MODE_FLAG_PHSYNC | DRM_MODE_FLAG_PVSYNC,
 };
-+
+
 static const struct panel_desc ivo_m133nwf4_r0 = {
 .modes = &ivo_m133nwf4_r0_mode,
 .num_modes = 1,
@@ -2667,7 +2667,7 @@ static const struct panel_desc ivo_m133nwf4_r0 = {
 .bus_flags = DRM_BUS_FLAG_DATA_MSB_TO_LSB,
 .connector_type = DRM_MODE_CONNECTOR_eDP,
 };
-+
+
 static const struct drm_display_mode kingdisplay_kd116n21_30nv_a010_mode = {
 .clock = 81000,
 .hdisplay = 1366,
@@ -2680,7 +2680,7 @@ static const struct drm_display_mode kingdisplay_kd116n21_30nv_a010_mode = {
 .vtotal = 768 + 5 + 5 + 122,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc kingdisplay_kd116n21_30nv_a010 = {
 .modes = &kingdisplay_kd116n21_30nv_a010_mode,
 .num_modes = 1,
@@ -2695,7 +2695,7 @@ static const struct panel_desc kingdisplay_kd116n21_30nv_a010 = {
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 .connector_type = DRM_MODE_CONNECTOR_eDP,
 };
-+
+
 static const struct display_timing koe_tx14d24vm1bpa_timing = {
 .pixelclock = { 5580000, 5850000, 6200000 },
 .hactive = { 320, 320, 320 },
@@ -2708,7 +2708,7 @@ static const struct display_timing koe_tx14d24vm1bpa_timing = {
 .vsync_len = { 1, 2, 11 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc koe_tx14d24vm1bpa = {
 .timings = &koe_tx14d24vm1bpa_timing,
 .num_timings = 1,
@@ -2718,7 +2718,7 @@ static const struct panel_desc koe_tx14d24vm1bpa = {
 	.height = 86,
 },
 };
-+
+
 static const struct display_timing koe_tx26d202vm0bwa_timing = {
 .pixelclock = { 151820000, 156720000, 159780000 },
 .hactive = { 1920, 1920, 1920 },
@@ -2730,7 +2730,7 @@ static const struct display_timing koe_tx26d202vm0bwa_timing = {
 .vback_porch = { 2, 5, 10 },
 .vsync_len = { 5, 5, 5 },
 };
-+
+
 static const struct panel_desc koe_tx26d202vm0bwa = {
 .timings = &koe_tx26d202vm0bwa_timing,
 .num_timings = 1,
@@ -2749,7 +2749,7 @@ static const struct panel_desc koe_tx26d202vm0bwa = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct display_timing koe_tx31d200vm0baa_timing = {
 .pixelclock = { 39600000, 43200000, 48000000 },
 .hactive = { 1280, 1280, 1280 },
@@ -2762,7 +2762,7 @@ static const struct display_timing koe_tx31d200vm0baa_timing = {
 .vsync_len = { 8, 8, 8 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc koe_tx31d200vm0baa = {
 .timings = &koe_tx31d200vm0baa_timing,
 .num_timings = 1,
@@ -2774,7 +2774,7 @@ static const struct panel_desc koe_tx31d200vm0baa = {
 .bus_format = MEDIA_BUS_FMT_RGB666_1X7X3_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct display_timing kyo_tcg121xglp_timing = {
 .pixelclock = { 52000000, 65000000, 71000000 },
 .hactive = { 1024, 1024, 1024 },
@@ -2787,7 +2787,7 @@ static const struct display_timing kyo_tcg121xglp_timing = {
 .vsync_len = { 6, 34, 73 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc kyo_tcg121xglp = {
 .timings = &kyo_tcg121xglp_timing,
 .num_timings = 1,
@@ -2799,7 +2799,7 @@ static const struct panel_desc kyo_tcg121xglp = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode lemaker_bl035_rgb_002_mode = {
 .clock = 7000,
 .hdisplay = 320,
@@ -2811,7 +2811,7 @@ static const struct drm_display_mode lemaker_bl035_rgb_002_mode = {
 .vsync_end = 240 + 4 + 3,
 .vtotal = 240 + 4 + 3 + 15,
 };
-+
+
 static const struct panel_desc lemaker_bl035_rgb_002 = {
 .modes = &lemaker_bl035_rgb_002_mode,
 .num_modes = 1,
@@ -2822,7 +2822,7 @@ static const struct panel_desc lemaker_bl035_rgb_002 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 .bus_flags = DRM_BUS_FLAG_DE_LOW,
 };
-+
+
 static const struct drm_display_mode lg_lb070wv8_mode = {
 .clock = 33246,
 .hdisplay = 800,
@@ -2834,7 +2834,7 @@ static const struct drm_display_mode lg_lb070wv8_mode = {
 .vsync_end = 480 + 10 + 25,
 .vtotal = 480 + 10 + 25 + 10,
 };
-+
+
 static const struct panel_desc lg_lb070wv8 = {
 .modes = &lg_lb070wv8_mode,
 .num_modes = 1,
@@ -2846,7 +2846,7 @@ static const struct panel_desc lg_lb070wv8 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode lg_lp079qx1_sp0v_mode = {
 .clock = 200000,
 .hdisplay = 1536,
@@ -2859,7 +2859,7 @@ static const struct drm_display_mode lg_lp079qx1_sp0v_mode = {
 .vtotal = 2048 + 8 + 4 + 8,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc lg_lp079qx1_sp0v = {
 .modes = &lg_lp079qx1_sp0v_mode,
 .num_modes = 1,
@@ -2868,7 +2868,7 @@ static const struct panel_desc lg_lp079qx1_sp0v = {
 	.height = 171,
 },
 };
-+
+
 static const struct drm_display_mode lg_lp097qx1_spa1_mode = {
 .clock = 205210,
 .hdisplay = 2048,
@@ -2880,7 +2880,7 @@ static const struct drm_display_mode lg_lp097qx1_spa1_mode = {
 .vsync_end = 1536 + 3 + 1,
 .vtotal = 1536 + 3 + 1 + 9,
 };
-+
+
 static const struct panel_desc lg_lp097qx1_spa1 = {
 .modes = &lg_lp097qx1_spa1_mode,
 .num_modes = 1,
@@ -2889,7 +2889,7 @@ static const struct panel_desc lg_lp097qx1_spa1 = {
 	.height = 147,
 },
 };
-+
+
 static const struct drm_display_mode lg_lp120up1_mode = {
 .clock = 162300,
 .hdisplay = 1920,
@@ -2901,7 +2901,7 @@ static const struct drm_display_mode lg_lp120up1_mode = {
 .vsync_end = 1280 + 4 + 4,
 .vtotal = 1280 + 4 + 4 + 12,
 };
-+
+
 static const struct panel_desc lg_lp120up1 = {
 .modes = &lg_lp120up1_mode,
 .num_modes = 1,
@@ -2912,7 +2912,7 @@ static const struct panel_desc lg_lp120up1 = {
 },
 .connector_type = DRM_MODE_CONNECTOR_eDP,
 };
-+
+
 static const struct drm_display_mode lg_lp129qe_mode = {
 .clock = 285250,
 .hdisplay = 2560,
@@ -2924,7 +2924,7 @@ static const struct drm_display_mode lg_lp129qe_mode = {
 .vsync_end = 1700 + 3 + 10,
 .vtotal = 1700 + 3 + 10 + 36,
 };
-+
+
 static const struct panel_desc lg_lp129qe = {
 .modes = &lg_lp129qe_mode,
 .num_modes = 1,
@@ -2934,7 +2934,7 @@ static const struct panel_desc lg_lp129qe = {
 	.height = 181,
 },
 };
-+
+
 static const struct display_timing logictechno_lt161010_2nh_timing = {
 .pixelclock = { 26400000, 33300000, 46800000 },
 .hactive = { 800, 800, 800 },
@@ -2949,7 +2949,7 @@ static const struct display_timing logictechno_lt161010_2nh_timing = {
 	 DISPLAY_FLAGS_DE_HIGH | DISPLAY_FLAGS_PIXDATA_POSEDGE |
 	 DISPLAY_FLAGS_SYNC_POSEDGE,
 };
-+
+
 static const struct panel_desc logictechno_lt161010_2nh = {
 .timings = &logictechno_lt161010_2nh_timing,
 .num_timings = 1,
@@ -2963,7 +2963,7 @@ static const struct panel_desc logictechno_lt161010_2nh = {
 	     DRM_BUS_FLAG_SYNC_SAMPLE_NEGEDGE,
 .connector_type = DRM_MODE_CONNECTOR_DPI,
 };
-+
+
 static const struct display_timing logictechno_lt170410_2whc_timing = {
 .pixelclock = { 68900000, 71100000, 73400000 },
 .hactive = { 1280, 1280, 1280 },
@@ -2978,7 +2978,7 @@ static const struct display_timing logictechno_lt170410_2whc_timing = {
 	 DISPLAY_FLAGS_DE_HIGH | DISPLAY_FLAGS_PIXDATA_POSEDGE |
 	 DISPLAY_FLAGS_SYNC_POSEDGE,
 };
-+
+
 static const struct panel_desc logictechno_lt170410_2whc = {
 .timings = &logictechno_lt170410_2whc_timing,
 .num_timings = 1,
@@ -2990,7 +2990,7 @@ static const struct panel_desc logictechno_lt170410_2whc = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode mitsubishi_aa070mc01_mode = {
 .clock = 30400,
 .hdisplay = 800,
@@ -3003,21 +3003,21 @@ static const struct drm_display_mode mitsubishi_aa070mc01_mode = {
 .vtotal = 480 + 48 + 1 + 0,
 .flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 };
-+
+
 static const struct drm_display_mode logicpd_type_28_mode = {
 .clock = 9107,
 .hdisplay = 480,
 .hsync_start = 480 + 3,
 .hsync_end = 480 + 3 + 42,
 .htotal = 480 + 3 + 42 + 2,
-+
+
 .vdisplay = 272,
 .vsync_start = 272 + 2,
 .vsync_end = 272 + 2 + 11,
 .vtotal = 272 + 2 + 11 + 3,
 .flags = DRM_MODE_FLAG_PHSYNC | DRM_MODE_FLAG_PVSYNC,
 };
-+
+
 static const struct panel_desc logicpd_type_28 = {
 .modes = &logicpd_type_28_mode,
 .num_modes = 1,
@@ -3037,7 +3037,7 @@ static const struct panel_desc logicpd_type_28 = {
 	     DRM_BUS_FLAG_SYNC_DRIVE_NEGEDGE,
 .connector_type = DRM_MODE_CONNECTOR_DPI,
 };
-+
+
 static const struct panel_desc mitsubishi_aa070mc01 = {
 .modes = &mitsubishi_aa070mc01_mode,
 .num_modes = 1,
@@ -3046,7 +3046,7 @@ static const struct panel_desc mitsubishi_aa070mc01 = {
 	.width = 152,
 	.height = 91,
 },
-+
+
 .delay = {
 	.enable = 200,
 	.unprepare = 200,
@@ -3056,7 +3056,7 @@ static const struct panel_desc mitsubishi_aa070mc01 = {
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 .bus_flags = DRM_BUS_FLAG_DE_HIGH,
 };
-+
+
 static const struct display_timing nec_nl12880bc20_05_timing = {
 .pixelclock = { 67000000, 71000000, 75000000 },
 .hactive = { 1280, 1280, 1280 },
@@ -3068,7 +3068,7 @@ static const struct display_timing nec_nl12880bc20_05_timing = {
 .vback_porch = { 11, 11, 11 },
 .vsync_len = { 7, 7, 7 },
 };
-+
+
 static const struct panel_desc nec_nl12880bc20_05 = {
 .timings = &nec_nl12880bc20_05_timing,
 .num_timings = 1,
@@ -3084,7 +3084,7 @@ static const struct panel_desc nec_nl12880bc20_05 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode nec_nl4827hc19_05b_mode = {
 .clock = 10870,
 .hdisplay = 480,
@@ -3097,7 +3097,7 @@ static const struct drm_display_mode nec_nl4827hc19_05b_mode = {
 .vtotal = 272 + 2 + 4 + 2,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc nec_nl4827hc19_05b = {
 .modes = &nec_nl4827hc19_05b_mode,
 .num_modes = 1,
@@ -3109,7 +3109,7 @@ static const struct panel_desc nec_nl4827hc19_05b = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 .bus_flags = DRM_BUS_FLAG_PIXDATA_DRIVE_POSEDGE,
 };
-+
+
 static const struct drm_display_mode netron_dy_e231732_mode = {
 .clock = 66000,
 .hdisplay = 1024,
@@ -3121,7 +3121,7 @@ static const struct drm_display_mode netron_dy_e231732_mode = {
 .vsync_end = 600 + 127 + 20,
 .vtotal = 600 + 127 + 20 + 3,
 };
-+
+
 static const struct panel_desc netron_dy_e231732 = {
 .modes = &netron_dy_e231732_mode,
 .num_modes = 1,
@@ -3131,7 +3131,7 @@ static const struct panel_desc netron_dy_e231732 = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 };
-+
+
 static const struct drm_display_mode neweast_wjfh116008a_modes[] = {
 {
 	.clock = 138500,
@@ -3157,7 +3157,7 @@ static const struct drm_display_mode neweast_wjfh116008a_modes[] = {
 	.flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 }
 };
-+
+
 static const struct panel_desc neweast_wjfh116008a = {
 .modes = neweast_wjfh116008a_modes,
 .num_modes = 2,
@@ -3174,7 +3174,7 @@ static const struct panel_desc neweast_wjfh116008a = {
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 .connector_type = DRM_MODE_CONNECTOR_eDP,
 };
-+
+
 static const struct drm_display_mode newhaven_nhd_43_480272ef_atxl_mode = {
 .clock = 9000,
 .hdisplay = 480,
@@ -3187,7 +3187,7 @@ static const struct drm_display_mode newhaven_nhd_43_480272ef_atxl_mode = {
 .vtotal = 272 + 2 + 10 + 2,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc newhaven_nhd_43_480272ef_atxl = {
 .modes = &newhaven_nhd_43_480272ef_atxl_mode,
 .num_modes = 1,
@@ -3201,7 +3201,7 @@ static const struct panel_desc newhaven_nhd_43_480272ef_atxl = {
 	     DRM_BUS_FLAG_SYNC_DRIVE_POSEDGE,
 .connector_type = DRM_MODE_CONNECTOR_DPI,
 };
-+
+
 static const struct display_timing nlt_nl192108ac18_02d_timing = {
 .pixelclock = { 130000000, 148350000, 163000000 },
 .hactive = { 1920, 1920, 1920 },
@@ -3213,7 +3213,7 @@ static const struct display_timing nlt_nl192108ac18_02d_timing = {
 .vback_porch = { 4, 10, 10 },
 .vsync_len = { 4, 5, 5 },
 };
-+
+
 static const struct panel_desc nlt_nl192108ac18_02d = {
 .timings = &nlt_nl192108ac18_02d_timing,
 .num_timings = 1,
@@ -3228,7 +3228,7 @@ static const struct panel_desc nlt_nl192108ac18_02d = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode nvd_9128_mode = {
 .clock = 29500,
 .hdisplay = 800,
@@ -3240,7 +3240,7 @@ static const struct drm_display_mode nvd_9128_mode = {
 .vsync_end = 480 + 10 + 50,
 .vtotal = 480 + 0 + 10 + 50,
 };
-+
+
 static const struct panel_desc nvd_9128 = {
 .modes = &nvd_9128_mode,
 .num_modes = 1,
@@ -3252,7 +3252,7 @@ static const struct panel_desc nvd_9128 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct display_timing okaya_rs800480t_7x0gp_timing = {
 .pixelclock = { 30000000, 30000000, 40000000 },
 .hactive = { 800, 800, 800 },
@@ -3265,7 +3265,7 @@ static const struct display_timing okaya_rs800480t_7x0gp_timing = {
 .vsync_len = { 3, 3, 3 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc okaya_rs800480t_7x0gp = {
 .timings = &okaya_rs800480t_7x0gp_timing,
 .num_timings = 1,
@@ -3282,7 +3282,7 @@ static const struct panel_desc okaya_rs800480t_7x0gp = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 };
-+
+
 static const struct drm_display_mode olimex_lcd_olinuxino_43ts_mode = {
 .clock = 9000,
 .hdisplay = 480,
@@ -3294,7 +3294,7 @@ static const struct drm_display_mode olimex_lcd_olinuxino_43ts_mode = {
 .vsync_end = 272 + 8 + 5,
 .vtotal = 272 + 8 + 5 + 3,
 };
-+
+
 static const struct panel_desc olimex_lcd_olinuxino_43ts = {
 .modes = &olimex_lcd_olinuxino_43ts_mode,
 .num_modes = 1,
@@ -3304,7 +3304,7 @@ static const struct panel_desc olimex_lcd_olinuxino_43ts = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 };
-+
+
 /*
  * 800x480 CVT. The panel appears to be quite accepting, at least as far as
  * pixel clocks, but this is the timing that was being used in the Adafruit
@@ -3322,7 +3322,7 @@ static const struct drm_display_mode ontat_yx700wv03_mode = {
 .vtotal = 500,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 /*
  * Specification at:
  * https://www.adafruit.com/images/product-files/2406/c3163.pdf
@@ -3337,7 +3337,7 @@ static const struct panel_desc ontat_yx700wv03 = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 };
-+
+
 static const struct drm_display_mode ortustech_com37h3m_mode  = {
 .clock = 22230,
 .hdisplay = 480,
@@ -3350,7 +3350,7 @@ static const struct drm_display_mode ortustech_com37h3m_mode  = {
 .vtotal = 640 + 4 + 2 + 4,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc ortustech_com37h3m = {
 .modes = &ortustech_com37h3m_mode,
 .num_modes = 1,
@@ -3363,7 +3363,7 @@ static const struct panel_desc ortustech_com37h3m = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_SAMPLE_NEGEDGE |
 	     DRM_BUS_FLAG_SYNC_DRIVE_POSEDGE,
 };
-+
+
 static const struct drm_display_mode ortustech_com43h4m85ulc_mode  = {
 .clock = 25000,
 .hdisplay = 480,
@@ -3375,7 +3375,7 @@ static const struct drm_display_mode ortustech_com43h4m85ulc_mode  = {
 .vsync_end = 800 + 3 + 3,
 .vtotal = 800 + 3 + 3 + 3,
 };
-+
+
 static const struct panel_desc ortustech_com43h4m85ulc = {
 .modes = &ortustech_com43h4m85ulc_mode,
 .num_modes = 1,
@@ -3401,7 +3401,7 @@ static const struct drm_display_mode osddisplays_osd070t1718_19ts_mode  = {
 .vtotal = 480 + 22 + 13 + 10,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc osddisplays_osd070t1718_19ts = {
 .modes = &osddisplays_osd070t1718_19ts_mode,
 .num_modes = 1,
@@ -3415,7 +3415,7 @@ static const struct panel_desc osddisplays_osd070t1718_19ts = {
 	DRM_BUS_FLAG_SYNC_DRIVE_POSEDGE,
 .connector_type = DRM_MODE_CONNECTOR_DPI,
 };
-+
+
 static const struct drm_display_mode pda_91_00156_a0_mode = {
 .clock = 33300,
 .hdisplay = 800,
@@ -3427,7 +3427,7 @@ static const struct drm_display_mode pda_91_00156_a0_mode = {
 .vsync_end = 480 + 1 + 23,
 .vtotal = 480 + 1 + 23 + 22,
 };
-+
+
 static const struct panel_desc pda_91_00156_a0  = {
 .modes = &pda_91_00156_a0_mode,
 .num_modes = 1,
@@ -3437,7 +3437,7 @@ static const struct panel_desc pda_91_00156_a0  = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 };
-+
+
 static const struct drm_display_mode powertip_ph800480t013_idf02_mode = {
 .clock = 24750,
 .hdisplay = 800,
@@ -3449,7 +3449,7 @@ static const struct drm_display_mode powertip_ph800480t013_idf02_mode = {
 .vsync_end = 480 + 49 + 2,
 .vtotal = 480 + 49 + 2 + 22,
 };
-+
+
 static const struct panel_desc powertip_ph800480t013_idf02  = {
 .modes = &powertip_ph800480t013_idf02_mode,
 .num_modes = 1,
@@ -3463,7 +3463,7 @@ static const struct panel_desc powertip_ph800480t013_idf02  = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 .connector_type = DRM_MODE_CONNECTOR_DPI,
 };
-+
+
 static const struct drm_display_mode qd43003c0_40_mode = {
 .clock = 9000,
 .hdisplay = 480,
@@ -3475,7 +3475,7 @@ static const struct drm_display_mode qd43003c0_40_mode = {
 .vsync_end = 272 + 4 + 10,
 .vtotal = 272 + 4 + 10 + 2,
 };
-+
+
 static const struct panel_desc qd43003c0_40 = {
 .modes = &qd43003c0_40_mode,
 .num_modes = 1,
@@ -3486,7 +3486,7 @@ static const struct panel_desc qd43003c0_40 = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 };
-+
+
 static const struct display_timing rocktech_rk070er9427_timing = {
 .pixelclock = { 26400000, 33300000, 46800000 },
 .hactive = { 800, 800, 800 },
@@ -3499,7 +3499,7 @@ static const struct display_timing rocktech_rk070er9427_timing = {
 .vsync_len = { 1, 1, 1 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc rocktech_rk070er9427 = {
 .timings = &rocktech_rk070er9427_timing,
 .num_timings = 1,
@@ -3516,7 +3516,7 @@ static const struct panel_desc rocktech_rk070er9427 = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 };
-+
+
 static const struct drm_display_mode rocktech_rk101ii01d_ct_mode = {
 .clock = 71100,
 .hdisplay = 1280,
@@ -3528,7 +3528,7 @@ static const struct drm_display_mode rocktech_rk101ii01d_ct_mode = {
 .vsync_end = 800 + 2 + 5,
 .vtotal = 800 + 2 + 5 + 16,
 };
-+
+
 static const struct panel_desc rocktech_rk101ii01d_ct = {
 .modes = &rocktech_rk101ii01d_ct_mode,
 .num_modes = 1,
@@ -3544,7 +3544,7 @@ static const struct panel_desc rocktech_rk101ii01d_ct = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode samsung_lsn122dl01_c01_mode = {
 .clock = 271560,
 .hdisplay = 2560,
@@ -3556,7 +3556,7 @@ static const struct drm_display_mode samsung_lsn122dl01_c01_mode = {
 .vsync_end = 1600 + 2 + 5,
 .vtotal = 1600 + 2 + 5 + 57,
 };
-+
+
 static const struct panel_desc samsung_lsn122dl01_c01 = {
 .modes = &samsung_lsn122dl01_c01_mode,
 .num_modes = 1,
@@ -3565,7 +3565,7 @@ static const struct panel_desc samsung_lsn122dl01_c01 = {
 	.height = 164,
 },
 };
-+
+
 static const struct drm_display_mode samsung_ltn101nt05_mode = {
 .clock = 54030,
 .hdisplay = 1024,
@@ -3577,7 +3577,7 @@ static const struct drm_display_mode samsung_ltn101nt05_mode = {
 .vsync_end = 600 + 3 + 6,
 .vtotal = 600 + 3 + 6 + 61,
 };
-+
+
 static const struct panel_desc samsung_ltn101nt05 = {
 .modes = &samsung_ltn101nt05_mode,
 .num_modes = 1,
@@ -3590,7 +3590,7 @@ static const struct panel_desc samsung_ltn101nt05 = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode samsung_ltn140at29_301_mode = {
 .clock = 76300,
 .hdisplay = 1366,
@@ -3602,7 +3602,7 @@ static const struct drm_display_mode samsung_ltn140at29_301_mode = {
 .vsync_end = 768 + 2 + 5,
 .vtotal = 768 + 2 + 5 + 17,
 };
-+
+
 static const struct panel_desc samsung_ltn140at29_301 = {
 .modes = &samsung_ltn140at29_301_mode,
 .num_modes = 1,
@@ -3624,7 +3624,7 @@ static const struct display_timing satoz_sat050at40h12r2_timing = {
 .vback_porch = {23, 23, 23},
 .vsync_len = {1, 1, 20},
 };
-+
+
 static const struct panel_desc satoz_sat050at40h12r2 = {
 .timings = &satoz_sat050at40h12r2_timing,
 .num_timings = 1,
@@ -3636,7 +3636,7 @@ static const struct panel_desc satoz_sat050at40h12r2 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode sharp_ld_d5116z01b_mode = {
 .clock = 168480,
 .hdisplay = 1920,
@@ -3649,7 +3649,7 @@ static const struct drm_display_mode sharp_ld_d5116z01b_mode = {
 .vtotal = 1280 + 3 + 10 + 57,
 .flags = DRM_MODE_FLAG_PHSYNC | DRM_MODE_FLAG_PVSYNC,
 };
-+
+
 static const struct panel_desc sharp_ld_d5116z01b = {
 .modes = &sharp_ld_d5116z01b_mode,
 .num_modes = 1,
@@ -3661,7 +3661,7 @@ static const struct panel_desc sharp_ld_d5116z01b = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 .bus_flags = DRM_BUS_FLAG_DATA_MSB_TO_LSB,
 };
-+
+
 static const struct drm_display_mode sharp_lq070y3dg3b_mode = {
 .clock = 33260,
 .hdisplay = 800,
@@ -3674,7 +3674,7 @@ static const struct drm_display_mode sharp_lq070y3dg3b_mode = {
 .vtotal = 480 + 8 + 2 + 35,
 .flags = DISPLAY_FLAGS_PIXDATA_POSEDGE,
 };
-+
+
 static const struct panel_desc sharp_lq070y3dg3b = {
 .modes = &sharp_lq070y3dg3b_mode,
 .num_modes = 1,
@@ -3687,7 +3687,7 @@ static const struct panel_desc sharp_lq070y3dg3b = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_SAMPLE_NEGEDGE |
 	     DRM_BUS_FLAG_SYNC_DRIVE_POSEDGE,
 };
-+
+
 static const struct drm_display_mode sharp_lq035q7db03_mode = {
 .clock = 5500,
 .hdisplay = 240,
@@ -3699,7 +3699,7 @@ static const struct drm_display_mode sharp_lq035q7db03_mode = {
 .vsync_end = 320 + 9 + 1,
 .vtotal = 320 + 9 + 1 + 7,
 };
-+
+
 static const struct panel_desc sharp_lq035q7db03 = {
 .modes = &sharp_lq035q7db03_mode,
 .num_modes = 1,
@@ -3710,7 +3710,7 @@ static const struct panel_desc sharp_lq035q7db03 = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 };
-+
+
 static const struct display_timing sharp_lq101k1ly04_timing = {
 .pixelclock = { 60000000, 65000000, 80000000 },
 .hactive = { 1280, 1280, 1280 },
@@ -3723,7 +3723,7 @@ static const struct display_timing sharp_lq101k1ly04_timing = {
 .vsync_len = { 4, 4, 4 },
 .flags = DISPLAY_FLAGS_PIXDATA_POSEDGE,
 };
-+
+
 static const struct panel_desc sharp_lq101k1ly04 = {
 .timings = &sharp_lq101k1ly04_timing,
 .num_timings = 1,
@@ -3735,7 +3735,7 @@ static const struct panel_desc sharp_lq101k1ly04 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_JEIDA,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct display_timing sharp_lq123p1jx31_timing = {
 .pixelclock = { 252750000, 252750000, 266604720 },
 .hactive = { 2400, 2400, 2400 },
@@ -3748,7 +3748,7 @@ static const struct display_timing sharp_lq123p1jx31_timing = {
 .vsync_len = { 10, 10, 10 },
 .flags = DISPLAY_FLAGS_VSYNC_LOW | DISPLAY_FLAGS_HSYNC_LOW,
 };
-+
+
 static const struct panel_desc sharp_lq123p1jx31 = {
 .timings = &sharp_lq123p1jx31_timing,
 .num_timings = 1,
@@ -3763,7 +3763,7 @@ static const struct panel_desc sharp_lq123p1jx31 = {
 	.unprepare = 550,
 },
 };
-+
+
 static const struct drm_display_mode sharp_ls020b1dd01d_modes[] = {
 { /* 50 Hz */
 	.clock = 3000,
@@ -3790,7 +3790,7 @@ static const struct drm_display_mode sharp_ls020b1dd01d_modes[] = {
 	.flags = DRM_MODE_FLAG_PHSYNC | DRM_MODE_FLAG_NVSYNC,
 },
 };
-+
+
 static const struct panel_desc sharp_ls020b1dd01d = {
 .modes = sharp_ls020b1dd01d_modes,
 .num_modes = ARRAY_SIZE(sharp_ls020b1dd01d_modes),
@@ -3804,7 +3804,7 @@ static const struct panel_desc sharp_ls020b1dd01d = {
 	   | DRM_BUS_FLAG_PIXDATA_SAMPLE_POSEDGE
 	   | DRM_BUS_FLAG_SHARP_SIGNALS,
 };
-+
+
 static const struct drm_display_mode shelly_sca07010_bfn_lnn_mode = {
 .clock = 33300,
 .hdisplay = 800,
@@ -3816,7 +3816,7 @@ static const struct drm_display_mode shelly_sca07010_bfn_lnn_mode = {
 .vsync_end = 480 + 1 + 23,
 .vtotal = 480 + 1 + 23 + 22,
 };
-+
+
 static const struct panel_desc shelly_sca07010_bfn_lnn = {
 .modes = &shelly_sca07010_bfn_lnn_mode,
 .num_modes = 1,
@@ -3826,7 +3826,7 @@ static const struct panel_desc shelly_sca07010_bfn_lnn = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 };
-+
+
 static const struct drm_display_mode starry_kr070pe2t_mode = {
 .clock = 33000,
 .hdisplay = 800,
@@ -3838,7 +3838,7 @@ static const struct drm_display_mode starry_kr070pe2t_mode = {
 .vsync_end = 480 + 22 + 1,
 .vtotal = 480 + 22 + 1 + 22,
 };
-+
+
 static const struct panel_desc starry_kr070pe2t = {
 .modes = &starry_kr070pe2t_mode,
 .num_modes = 1,
@@ -3851,7 +3851,7 @@ static const struct panel_desc starry_kr070pe2t = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_DRIVE_NEGEDGE,
 .connector_type = DRM_MODE_CONNECTOR_DPI,
 };
-+
+
 static const struct drm_display_mode starry_kr122ea0sra_mode = {
 .clock = 147000,
 .hdisplay = 1920,
@@ -3864,7 +3864,7 @@ static const struct drm_display_mode starry_kr122ea0sra_mode = {
 .vtotal = 1200 + 15 + 2 + 18,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc starry_kr122ea0sra = {
 .modes = &starry_kr122ea0sra_mode,
 .num_modes = 1,
@@ -3878,7 +3878,7 @@ static const struct panel_desc starry_kr122ea0sra = {
 	.unprepare = 10 + 500,
 },
 };
-+
+
 static const struct drm_display_mode tfc_s9700rtwv43tr_01b_mode = {
 .clock = 30000,
 .hdisplay = 800,
@@ -3890,7 +3890,7 @@ static const struct drm_display_mode tfc_s9700rtwv43tr_01b_mode = {
 .vsync_end = 480 + 13 + 2,
 .vtotal = 480 + 13 + 2 + 29,
 };
-+
+
 static const struct panel_desc tfc_s9700rtwv43tr_01b = {
 .modes = &tfc_s9700rtwv43tr_01b_mode,
 .num_modes = 1,
@@ -3902,7 +3902,7 @@ static const struct panel_desc tfc_s9700rtwv43tr_01b = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_SAMPLE_NEGEDGE,
 };
-+
+
 static const struct display_timing tianma_tm070jdhg30_timing = {
 .pixelclock = { 62600000, 68200000, 78100000 },
 .hactive = { 1280, 1280, 1280 },
@@ -3915,7 +3915,7 @@ static const struct display_timing tianma_tm070jdhg30_timing = {
 .vsync_len = { 1, 1, 128 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc tianma_tm070jdhg30 = {
 .timings = &tianma_tm070jdhg30_timing,
 .num_timings = 1,
@@ -3939,7 +3939,7 @@ static const struct panel_desc tianma_tm070jvhg33 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct display_timing tianma_tm070rvhg71_timing = {
 .pixelclock = { 27700000, 29200000, 39600000 },
 .hactive = { 800, 800, 800 },
@@ -3952,7 +3952,7 @@ static const struct display_timing tianma_tm070rvhg71_timing = {
 .vsync_len = { 1, 1, 3 },
 .flags = DISPLAY_FLAGS_DE_HIGH,
 };
-+
+
 static const struct panel_desc tianma_tm070rvhg71 = {
 .timings = &tianma_tm070rvhg71_timing,
 .num_timings = 1,
@@ -3964,7 +3964,7 @@ static const struct panel_desc tianma_tm070rvhg71 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode ti_nspire_cx_lcd_mode[] = {
 {
 	.clock = 10000,
@@ -3979,7 +3979,7 @@ static const struct drm_display_mode ti_nspire_cx_lcd_mode[] = {
 	.flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 },
 };
-+
+
 static const struct panel_desc ti_nspire_cx_lcd_panel = {
 .modes = ti_nspire_cx_lcd_mode,
 .num_modes = 1,
@@ -3991,7 +3991,7 @@ static const struct panel_desc ti_nspire_cx_lcd_panel = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 .bus_flags = DRM_BUS_FLAG_PIXDATA_SAMPLE_POSEDGE,
 };
-+
+
 static const struct drm_display_mode ti_nspire_classic_lcd_mode[] = {
 {
 	.clock = 10000,
@@ -4006,7 +4006,7 @@ static const struct drm_display_mode ti_nspire_classic_lcd_mode[] = {
 	.flags = DRM_MODE_FLAG_PHSYNC | DRM_MODE_FLAG_PVSYNC,
 },
 };
-+
+
 static const struct panel_desc ti_nspire_classic_lcd_panel = {
 .modes = ti_nspire_classic_lcd_mode,
 .num_modes = 1,
@@ -4020,7 +4020,7 @@ static const struct panel_desc ti_nspire_classic_lcd_panel = {
 .bus_format = MEDIA_BUS_FMT_Y8_1X8,
 .bus_flags = DRM_BUS_FLAG_PIXDATA_SAMPLE_NEGEDGE,
 };
-+
+
 static const struct drm_display_mode toshiba_lt089ac29000_mode = {
 .clock = 79500,
 .hdisplay = 1280,
@@ -4032,7 +4032,7 @@ static const struct drm_display_mode toshiba_lt089ac29000_mode = {
 .vsync_end = 768 + 20 + 7,
 .vtotal = 768 + 20 + 7 + 3,
 };
-+
+
 static const struct panel_desc toshiba_lt089ac29000 = {
 .modes = &toshiba_lt089ac29000_mode,
 .num_modes = 1,
@@ -4044,7 +4044,7 @@ static const struct panel_desc toshiba_lt089ac29000 = {
 .bus_flags = DRM_BUS_FLAG_DE_HIGH,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct drm_display_mode tpk_f07a_0102_mode = {
 .clock = 33260,
 .hdisplay = 800,
@@ -4056,7 +4056,7 @@ static const struct drm_display_mode tpk_f07a_0102_mode = {
 .vsync_end = 480 + 10 + 2,
 .vtotal = 480 + 10 + 2 + 33,
 };
-+
+
 static const struct panel_desc tpk_f07a_0102 = {
 .modes = &tpk_f07a_0102_mode,
 .num_modes = 1,
@@ -4066,7 +4066,7 @@ static const struct panel_desc tpk_f07a_0102 = {
 },
 .bus_flags = DRM_BUS_FLAG_PIXDATA_DRIVE_POSEDGE,
 };
-+
+
 static const struct drm_display_mode tpk_f10a_0102_mode = {
 .clock = 45000,
 .hdisplay = 1024,
@@ -4078,7 +4078,7 @@ static const struct drm_display_mode tpk_f10a_0102_mode = {
 .vsync_end = 600 + 20 + 5,
 .vtotal = 600 + 20 + 5 + 25,
 };
-+
+
 static const struct panel_desc tpk_f10a_0102 = {
 .modes = &tpk_f10a_0102_mode,
 .num_modes = 1,
@@ -4087,7 +4087,7 @@ static const struct panel_desc tpk_f10a_0102 = {
 	.height = 125,
 },
 };
-+
+
 static const struct display_timing urt_umsh_8596md_timing = {
 .pixelclock = { 33260000, 33260000, 33260000 },
 .hactive = { 800, 800, 800 },
@@ -4101,7 +4101,7 @@ static const struct display_timing urt_umsh_8596md_timing = {
 .flags = DISPLAY_FLAGS_DE_HIGH | DISPLAY_FLAGS_PIXDATA_NEGEDGE |
 	DISPLAY_FLAGS_HSYNC_LOW | DISPLAY_FLAGS_VSYNC_LOW,
 };
-+
+
 static const struct panel_desc urt_umsh_8596md_lvds = {
 .timings = &urt_umsh_8596md_timing,
 .num_timings = 1,
@@ -4113,7 +4113,7 @@ static const struct panel_desc urt_umsh_8596md_lvds = {
 .bus_format = MEDIA_BUS_FMT_RGB666_1X7X3_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct panel_desc urt_umsh_8596md_parallel = {
 .timings = &urt_umsh_8596md_timing,
 .num_timings = 1,
@@ -4124,7 +4124,7 @@ static const struct panel_desc urt_umsh_8596md_parallel = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB666_1X18,
 };
-+
+
 static const struct drm_display_mode vl050_8048nt_c01_mode = {
 .clock = 33333,
 .hdisplay = 800,
@@ -4137,7 +4137,7 @@ static const struct drm_display_mode vl050_8048nt_c01_mode = {
 .vtotal = 480 + 22 + 10 + 23,
 .flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 };
-+
+
 static const struct panel_desc vl050_8048nt_c01 = {
 .modes = &vl050_8048nt_c01_mode,
 .num_modes = 1,
@@ -4149,7 +4149,7 @@ static const struct panel_desc vl050_8048nt_c01 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 .bus_flags = DRM_BUS_FLAG_DE_HIGH | DRM_BUS_FLAG_PIXDATA_SAMPLE_NEGEDGE,
 };
-+
+
 static const struct drm_display_mode winstar_wf35ltiacd_mode = {
 .clock = 6410,
 .hdisplay = 320,
@@ -4162,7 +4162,7 @@ static const struct drm_display_mode winstar_wf35ltiacd_mode = {
 .vtotal = 240 + 4 + 3 + 15,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc winstar_wf35ltiacd = {
 .modes = &winstar_wf35ltiacd_mode,
 .num_modes = 1,
@@ -4173,7 +4173,7 @@ static const struct panel_desc winstar_wf35ltiacd = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 };
-+
+
 static const struct drm_display_mode arm_rtsm_mode[] = {
 {
 	.clock = 65000,
@@ -4188,7 +4188,7 @@ static const struct drm_display_mode arm_rtsm_mode[] = {
 	.flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 },
 };
-+
+
 static const struct panel_desc arm_rtsm = {
 .modes = arm_rtsm_mode,
 .num_modes = 1,
@@ -4199,7 +4199,7 @@ static const struct panel_desc arm_rtsm = {
 },
 .bus_format = MEDIA_BUS_FMT_RGB888_1X24,
 };
-+
+
 static const struct of_device_id platform_of_match[] = {
 {
 	.compatible = "simple-panel",
@@ -4612,18 +4612,18 @@ static const struct of_device_id platform_of_match[] = {
 }
 };
 MODULE_DEVICE_TABLE(of, platform_of_match);
-+
+
 static bool of_child_node_is_present(const struct device_node *node,
 			     const char *name)
 {
 struct device_node *child;
-+
+
 child = of_get_child_by_name(node, name);
 of_node_put(child);
-+
+
 return !!child;
 }
-+
+
 static int panel_simple_of_get_desc_data(struct device *dev,
 				 struct panel_desc *desc)
 {
@@ -4632,14 +4632,14 @@ u32 bus_flags;
 const void *data;
 int len;
 int err;
-+
+
 if (of_child_node_is_present(np, "display-timings")) {
 	struct drm_display_mode *mode;
-+
+
 	mode = devm_kzalloc(dev, sizeof(*mode), GFP_KERNEL);
 	if (!mode)
 		return -ENOMEM;
-+
+
 	if (!of_get_drm_display_mode(np, mode, &bus_flags,
 				     OF_USE_NATIVE_MODE)) {
 		desc->modes = mode;
@@ -4649,43 +4649,43 @@ if (of_child_node_is_present(np, "display-timings")) {
 } else if (of_child_node_is_present(np, "panel-timing")) {
 	struct display_timing *timing;
 	struct videomode vm;
-+
+
 	timing = devm_kzalloc(dev, sizeof(*timing), GFP_KERNEL);
 	if (!timing)
 		return -ENOMEM;
-+
+
 	if (!of_get_display_timing(np, "panel-timing", timing)) {
 		desc->timings = timing;
 		desc->num_timings = 1;
-+
+
 		bus_flags = 0;
 		vm.flags = timing->flags;
 		drm_bus_flags_from_videomode(&vm, &bus_flags);
 		desc->bus_flags = bus_flags;
 	}
 }
-+
+
 if (desc->num_modes || desc->num_timings) {
 	of_property_read_u32(np, "bpc", &desc->bpc);
 	of_property_read_u32(np, "bus-format", &desc->bus_format);
 	of_property_read_u32(np, "width-mm", &desc->size.width);
 	of_property_read_u32(np, "height-mm", &desc->size.height);
 }
-+
+
 of_property_read_u32(np, "prepare-delay-ms", &desc->delay.prepare);
 of_property_read_u32(np, "enable-delay-ms", &desc->delay.enable);
 of_property_read_u32(np, "disable-delay-ms", &desc->delay.disable);
 of_property_read_u32(np, "unprepare-delay-ms", &desc->delay.unprepare);
 of_property_read_u32(np, "reset-delay-ms", &desc->delay.reset);
 of_property_read_u32(np, "init-delay-ms", &desc->delay.init);
-+
+
 data = of_get_property(np, "panel-init-sequence", &len);
 if (data) {
 	desc->init_seq = devm_kzalloc(dev, sizeof(*desc->init_seq),
 				      GFP_KERNEL);
 	if (!desc->init_seq)
 		return -ENOMEM;
-+
+
 	err = panel_simple_parse_cmd_seq(dev, data, len,
 					 desc->init_seq);
 	if (err) {
@@ -4693,14 +4693,14 @@ if (data) {
 		return err;
 	}
 }
-+
+
 data = of_get_property(np, "panel-exit-sequence", &len);
 if (data) {
 	desc->exit_seq = devm_kzalloc(dev, sizeof(*desc->exit_seq),
 				      GFP_KERNEL);
 	if (!desc->exit_seq)
 		return -ENOMEM;
-+
+
 	err = panel_simple_parse_cmd_seq(dev, data, len,
 					 desc->exit_seq);
 	if (err) {
@@ -4708,10 +4708,10 @@ if (data) {
 		return err;
 	}
 }
-+
+
 return 0;
 }
-+
+
 static int panel_simple_platform_probe(struct platform_device *pdev)
 {
 struct device *dev = &pdev->dev;
@@ -4719,38 +4719,38 @@ const struct of_device_id *id;
 const struct panel_desc *desc;
 struct panel_desc *d;
 int err;
-+
+
 id = of_match_node(platform_of_match, pdev->dev.of_node);
 if (!id)
 	return -ENODEV;
-+
+
 if (!id->data) {
 	d = devm_kzalloc(dev, sizeof(*d), GFP_KERNEL);
 	if (!d)
 		return -ENOMEM;
-+
+
 	err = panel_simple_of_get_desc_data(dev, d);
 	if (err) {
 		dev_err(dev, "failed to get desc data: %d\n", err);
 		return err;
 	}
 }
-+
+
 desc = id->data ? id->data : d;
-+
+
 return panel_simple_probe(&pdev->dev, desc);
 }
-+
+
 static int panel_simple_platform_remove(struct platform_device *pdev)
 {
 return panel_simple_remove(&pdev->dev);
 }
-+
+
 static void panel_simple_platform_shutdown(struct platform_device *pdev)
 {
 panel_simple_shutdown(&pdev->dev);
 }
-+
+
 static struct platform_driver panel_simple_platform_driver = {
 .driver = {
 	.name = "panel-simple-fyde",
@@ -4760,15 +4760,15 @@ static struct platform_driver panel_simple_platform_driver = {
 .remove = panel_simple_platform_remove,
 .shutdown = panel_simple_platform_shutdown,
 };
-+
+
 struct panel_desc_dsi {
 struct panel_desc desc;
-+
+
 unsigned long flags;
 enum mipi_dsi_pixel_format format;
 unsigned int lanes;
 };
-+
+
 static const struct drm_display_mode auo_b080uan01_mode = {
 .clock = 154500,
 .hdisplay = 1200,
@@ -4780,7 +4780,7 @@ static const struct drm_display_mode auo_b080uan01_mode = {
 .vsync_end = 1920 + 9 + 2,
 .vtotal = 1920 + 9 + 2 + 8,
 };
-+
+
 static const struct panel_desc_dsi auo_b080uan01 = {
 .desc = {
 	.modes = &auo_b080uan01_mode,
@@ -4796,7 +4796,7 @@ static const struct panel_desc_dsi auo_b080uan01 = {
 .format = MIPI_DSI_FMT_RGB888,
 .lanes = 4,
 };
-+
+
 static const struct drm_display_mode boe_tv080wum_nl0_mode = {
 .clock = 160000,
 .hdisplay = 1200,
@@ -4809,7 +4809,7 @@ static const struct drm_display_mode boe_tv080wum_nl0_mode = {
 .vtotal = 1920 + 21 + 3 + 18,
 .flags = DRM_MODE_FLAG_NVSYNC | DRM_MODE_FLAG_NHSYNC,
 };
-+
+
 static const struct panel_desc_dsi boe_tv080wum_nl0 = {
 .desc = {
 	.modes = &boe_tv080wum_nl0_mode,
@@ -4826,7 +4826,7 @@ static const struct panel_desc_dsi boe_tv080wum_nl0 = {
 .format = MIPI_DSI_FMT_RGB888,
 .lanes = 4,
 };
-+
+
 static const struct drm_display_mode lg_ld070wx3_sl01_mode = {
 .clock = 71000,
 .hdisplay = 800,
@@ -4838,7 +4838,7 @@ static const struct drm_display_mode lg_ld070wx3_sl01_mode = {
 .vsync_end = 1280 + 28 + 1,
 .vtotal = 1280 + 28 + 1 + 14,
 };
-+
+
 static const struct panel_desc_dsi lg_ld070wx3_sl01 = {
 .desc = {
 	.modes = &lg_ld070wx3_sl01_mode,
@@ -4854,7 +4854,7 @@ static const struct panel_desc_dsi lg_ld070wx3_sl01 = {
 .format = MIPI_DSI_FMT_RGB888,
 .lanes = 4,
 };
-+
+
 static const struct drm_display_mode lg_lh500wx1_sd03_mode = {
 .clock = 67000,
 .hdisplay = 720,
@@ -4866,7 +4866,7 @@ static const struct drm_display_mode lg_lh500wx1_sd03_mode = {
 .vsync_end = 1280 + 8 + 4,
 .vtotal = 1280 + 8 + 4 + 12,
 };
-+
+
 static const struct panel_desc_dsi lg_lh500wx1_sd03 = {
 .desc = {
 	.modes = &lg_lh500wx1_sd03_mode,
@@ -4882,7 +4882,7 @@ static const struct panel_desc_dsi lg_lh500wx1_sd03 = {
 .format = MIPI_DSI_FMT_RGB888,
 .lanes = 4,
 };
-+
+
 static const struct drm_display_mode panasonic_vvx10f004b00_mode = {
 .clock = 157200,
 .hdisplay = 1920,
@@ -4894,7 +4894,7 @@ static const struct drm_display_mode panasonic_vvx10f004b00_mode = {
 .vsync_end = 1200 + 17 + 2,
 .vtotal = 1200 + 17 + 2 + 16,
 };
-+
+
 static const struct panel_desc_dsi panasonic_vvx10f004b00 = {
 .desc = {
 	.modes = &panasonic_vvx10f004b00_mode,
@@ -4911,7 +4911,7 @@ static const struct panel_desc_dsi panasonic_vvx10f004b00 = {
 .format = MIPI_DSI_FMT_RGB888,
 .lanes = 4,
 };
-+
+
 static const struct drm_display_mode lg_acx467akm_7_mode = {
 .clock = 150000,
 .hdisplay = 1080,
@@ -4923,7 +4923,7 @@ static const struct drm_display_mode lg_acx467akm_7_mode = {
 .vsync_end = 1920 + 2 + 2,
 .vtotal = 1920 + 2 + 2 + 2,
 };
-+
+
 static const struct panel_desc_dsi lg_acx467akm_7 = {
 .desc = {
 	.modes = &lg_acx467akm_7_mode,
@@ -4939,7 +4939,7 @@ static const struct panel_desc_dsi lg_acx467akm_7 = {
 .format = MIPI_DSI_FMT_RGB888,
 .lanes = 4,
 };
-+
+
 static const struct drm_display_mode osd101t2045_53ts_mode = {
 .clock = 154500,
 .hdisplay = 1920,
@@ -4952,7 +4952,7 @@ static const struct drm_display_mode osd101t2045_53ts_mode = {
 .vtotal = 1200 + 16 + 2 + 16,
 .flags = DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC,
 };
-+
+
 static const struct panel_desc_dsi osd101t2045_53ts = {
 .desc = {
 	.modes = &osd101t2045_53ts_mode,
@@ -4970,7 +4970,7 @@ static const struct panel_desc_dsi osd101t2045_53ts = {
 .format = MIPI_DSI_FMT_RGB888,
 .lanes = 4,
 };
-+
+
 static const struct of_device_id dsi_of_match[] = {
 {
 	.compatible = "simple-panel-dsi-fyde",
@@ -5001,28 +5001,28 @@ static const struct of_device_id dsi_of_match[] = {
 }
 };
 MODULE_DEVICE_TABLE(of, dsi_of_match);
-+
+
 static int panel_simple_dsi_of_get_desc_data(struct device *dev,
 				     struct panel_desc_dsi *desc)
 {
 struct device_node *np = dev->of_node;
 u32 val;
 int err;
-+
+
 err = panel_simple_of_get_desc_data(dev, &desc->desc);
 if (err)
 	return err;
-+
+
 if (!of_property_read_u32(np, "dsi,flags", &val))
 	desc->flags = val;
 if (!of_property_read_u32(np, "dsi,format", &val))
 	desc->format = val;
 if (!of_property_read_u32(np, "dsi,lanes", &val))
 	desc->lanes = val;
-+
+
 return 0;
 }
-+
+
 static int panel_simple_dsi_probe(struct mipi_dsi_device *dsi)
 {
 struct panel_simple *panel;
@@ -5031,40 +5031,40 @@ const struct panel_desc_dsi *desc;
 struct panel_desc_dsi *d;
 const struct of_device_id *id;
 int err;
-+
+
 id = of_match_node(dsi_of_match, dsi->dev.of_node);
 if (!id)
 	return -ENODEV;
-+
+
 if (!id->data) {
 	d = devm_kzalloc(dev, sizeof(*d), GFP_KERNEL);
 	if (!d)
 		return -ENOMEM;
-+
+
 	err = panel_simple_dsi_of_get_desc_data(dev, d);
 	if (err) {
 		dev_err(dev, "failed to get desc data: %d\n", err);
 		return err;
 	}
 }
-+
+
 desc = id->data ? id->data : d;
-+
+
 err = panel_simple_probe(&dsi->dev, &desc->desc);
 if (err < 0)
 	return err;
-+
+
 panel = dev_get_drvdata(dev);
 panel->dsi = dsi;
-+
+
 if (!panel->base.backlight) {
 	struct backlight_properties props;
-+
+
 	memset(&props, 0, sizeof(props));
 	props.type = BACKLIGHT_RAW;
 	props.brightness = 255;
 	props.max_brightness = 255;
-+
+
 	panel->base.backlight =
 		devm_backlight_device_register(dev, "dcs-backlight",
 					       dev, panel, &dcs_bl_ops,
@@ -5076,37 +5076,37 @@ if (!panel->base.backlight) {
 		return err;
 	}
 }
-+
+
 dsi->mode_flags = desc->flags;
 dsi->format = desc->format;
 dsi->lanes = desc->lanes;
-+
+
 err = mipi_dsi_attach(dsi);
 if (err) {
 	struct panel_simple *panel = dev_get_drvdata(&dsi->dev);
-+
+
 	drm_panel_remove(&panel->base);
 }
-+
+
 return err;
 }
-+
+
 static int panel_simple_dsi_remove(struct mipi_dsi_device *dsi)
 {
 int err;
-+
+
 err = mipi_dsi_detach(dsi);
 if (err < 0)
 	dev_err(&dsi->dev, "failed to detach from DSI host: %d\n", err);
-+
+
 return panel_simple_remove(&dsi->dev);
 }
-+
+
 static void panel_simple_dsi_shutdown(struct mipi_dsi_device *dsi)
 {
 panel_simple_shutdown(&dsi->dev);
 }
-+
+
 static struct mipi_dsi_driver panel_simple_dsi_driver = {
 .driver = {
 	.name = "panel-simple-dsi-fyde",
@@ -5116,34 +5116,34 @@ static struct mipi_dsi_driver panel_simple_dsi_driver = {
 .remove = panel_simple_dsi_remove,
 .shutdown = panel_simple_dsi_shutdown,
 };
-+
+
 static int __init panel_simple_fyde_init(void)
 {
 int err;
-+
+
 err = platform_driver_register(&panel_simple_platform_driver);
 if (err < 0)
 	return err;
-+
+
 if (IS_ENABLED(CONFIG_DRM_MIPI_DSI)) {
 	err = mipi_dsi_driver_register(&panel_simple_dsi_driver);
 	if (err < 0)
 		return err;
 }
-+
+
 return 0;
 }
 MODULE_init(panel_simple_fyde_init);
-+
+
 static void __exit panel_simple_fyde_exit(void)
 {
 if (IS_ENABLED(CONFIG_DRM_MIPI_DSI))
 	mipi_dsi_driver_unregister(&panel_simple_dsi_driver);
-+
+
 platform_driver_unregister(&panel_simple_platform_driver);
 }
 MODULE_exit(panel_simple_fyde_exit);
-+
+
 MODULE_AUTHOR("Thierry Reding <treding@nvidia.com>");
 MODULE_DESCRIPTION("DRM Driver for Simple Panels");
 MODULE_LICENSE("GPL and additional rights");
