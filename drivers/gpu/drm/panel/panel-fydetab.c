@@ -1416,7 +1416,7 @@ static const struct panel_desc auo_g185han01 = {
 .bus_format = MEDIA_BUS_FMT_RGB888_1X7X4_SPWG,
 .connector_type = DRM_MODE_CONNECTOR_LVDS,
 };
-+
+
 static const struct display_timing auo_g190ean01_timings = {
 .pixelclock = { 90000000, 108000000, 135000000 },
 .hactive = { 1280, 1280, 1280 },
