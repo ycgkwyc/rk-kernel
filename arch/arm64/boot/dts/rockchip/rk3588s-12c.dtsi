@@ -43,7 +43,7 @@ hdmi0_sound: hdmi0-sound {
 */
 
   dp0_sound: dp0-sound {
-      status = "disabled";
+      status = "okay";
       compatible = "rockchip,hdmi";
       rockchip,card-name = "HDMI/DP-rockchip-0";
       rockchip,mclk-fs = <512>;
@@ -175,7 +175,7 @@ cam_power: cam-power {
 	pinctrl-names = "default";
 	pinctrl-0 = <&cam_power_en>;
 };
-
+/*
 sdmmc_power: sdmmc-power {
 	compatible = "regulator-fixed";
 	regulator-name = "sdmmc_power";
@@ -185,7 +185,20 @@ sdmmc_power: sdmmc-power {
 	pinctrl-names = "default";
 	pinctrl-0 = <&sdmmc_power_en>;
 };
-
+*/
+vcc_3v3_sd_s0: vcc-3v3-sd-s0 {
+    compatible = "regulator-fixed";
+    regulator-name = "vcc_3v3_sd_s0";
+    regulator-min-microvolt = <3300000>;
+    regulator-max-microvolt = <3300000>;
+    gpios = <&gpio4 RK_PB4 GPIO_ACTIVE_HIGH>;
+    enable-active-high;
+    regulator-boot-on;
+    vin-supply = <&vcc_3v3_s3>;
+    regulator-state-mem {
+      regulator-off-in-suspend;
+    };
+  };
 vcc_lcd_en: vcc-lcd-en {
 	compatible = "regulator-fixed";
 	regulator-name = "vcc_lcd_en";
