@@ -243,7 +243,7 @@ finger_rst_test: finger-rst-test {
   			rockchip,pins = <1 RK_PB0 RK_FUNC_GPIO &pcfg_pull_none>;
   		};
   		finger_rst_test_en: finger-rst-test-en {
-  			rockchip,pins = <3 RK_PB1 RK_FUNC_GPIO &pcfg_pull_none>;
+  			rockchip,pins = <4 RK_PB4 RK_FUNC_GPIO &pcfg_pull_up>;
   		};
   		sdmmc_power_en: sdmmc-power-en {
   			rockchip,pins = <4 RK_PB4 RK_FUNC_GPIO &pcfg_pull_none>;
