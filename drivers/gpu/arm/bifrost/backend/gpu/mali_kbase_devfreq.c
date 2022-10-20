@@ -168,14 +168,14 @@ int kbase_devfreq_opp_helper(struct dev_pm_set_opp_data *data)
 					       new_freq, true, is_set_clk);
 		ret = regulator_set_voltage(mem_reg, new_supply_mem->u_volt,
 					    INT_MAX);
-		if (ret) {
-			dev_err(dev, "failed to set volt %lu uV for mem reg\n",
-				new_supply_mem->u_volt);
+		if (ret < 0) {
++				dev_err(dev, "failed to set bigger volt %lu uV for mem reg, ret:%d\n",
++					new_supply_mem->u_volt,  ret);
 			goto restore_voltage;
 		}
 		ret = regulator_set_voltage(vdd_reg, new_supply_vdd->u_volt,
 					    INT_MAX);
-		if (ret) {
+		if (ret < 0) {
 			dev_err(dev, "failed to set volt %lu uV for vdd reg\n",
 				new_supply_vdd->u_volt);
 			goto restore_voltage;
@@ -198,16 +198,16 @@ int kbase_devfreq_opp_helper(struct dev_pm_set_opp_data *data)
 		}
 		ret = regulator_set_voltage(vdd_reg, new_supply_vdd->u_volt,
 					    INT_MAX);
-		if (ret) {
+		if (ret < 0) {
 			dev_err(dev, "failed to set volt %lu uV for vdd reg\n",
 				new_supply_vdd->u_volt);
 			goto restore_freq;
 		}
 		ret = regulator_set_voltage(mem_reg, new_supply_mem->u_volt,
 					    INT_MAX);
-		if (ret) {
-			dev_err(dev, "failed to set volt %lu uV for mem reg\n",
-				new_supply_mem->u_volt);
++               if (ret < 0) {
++                   dev_err(dev, "failed to set volt %lu uV for mem reg, ret:%d\n",
++                       new_supply_mem->u_volt, ret);
 			goto restore_freq;
 		}
 	}
