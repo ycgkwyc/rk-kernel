@@ -912,7 +912,7 @@ num-cs = <1>;
 	spi-cpol;
 };
 };
-+
+
 &tsadc {
 status = "okay";
 };
