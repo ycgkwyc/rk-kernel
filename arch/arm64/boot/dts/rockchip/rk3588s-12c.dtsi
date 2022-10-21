@@ -474,19 +474,19 @@ status = "okay";
 &u2phy2 {
 status = "okay";
 };
-+
+
 &u2phy3 {
 status = "okay";
 };
-+
+
 &u2phy0_otg {
 status = "okay";
 };
-+
+
 &u2phy2_host {
 status = "okay";
 };
-+
+
 &u2phy3_host {
 status = "okay";
 };
@@ -506,7 +506,7 @@ status = "okay";
 &usb_host1_ohci {
 status = "okay";
 };
-+
+
 &usbdp_phy0 {
 status = "okay";
 };
